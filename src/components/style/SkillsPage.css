@@ -1,0 +1,65 @@
+/* SkillPage.css */
+
+.skill{
+margin-top: 100px;
+text-align: center;
+
+
+}
+.skill h1{
+  color: mediumvioletred;
+  font-size: 2.5vw;
+
+}.skill-page {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    
+    
+  }
+  .skill-name{
+    color: chocolate;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 23px;
+    overflow: hidden;
+    
+  }
+  
+  .skill-item {
+    margin: 10px 0;
+    width: 400px;
+  }
+  
+  .skill-bar {
+    height: 20px;
+    border-radius: 5px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .skill-percentage {
+    margin-top: 5px;
+  }
+  @media screen and (max-width:768px){
+    .skill{
+      margin-top: 60px;
+
+    }
+    .skills-container{
+      margin-left: 0px;
+    }
+    .skill-item {
+      margin: 10px 0;
+      width: 72px;
+    }
+  }
