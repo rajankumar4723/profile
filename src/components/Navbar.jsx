@@ -26,7 +26,7 @@ function Navbar() {
           <div className="navlink">
             <ul className={`list  ${isNavOpen ? "show" : ""}`}>
               <li>
-                <a href="#home" className="hover-link">
+                <a href="#homepage" className="hover-link">
                   Home
                 </a>
               </li>
@@ -56,7 +56,7 @@ function Navbar() {
         </nav>
       </div>
       <div className="container-section">
-        <section className="home" id="home">
+        <section className="homepage" id="homepage">
           <Home />
         </section>
         <section className="about" id="about">
