@@ -1,5 +1,5 @@
 import React from 'react'
-import "./style/home.css";
+import "./style/Home.css";
 import Pic from "../assets/Profile.jpg";
 import Htmlpic from "../assets/html.png";
 import Java from "../assets/java.png";
