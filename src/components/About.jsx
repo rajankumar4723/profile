@@ -80,7 +80,6 @@ function About() {
           </div>
         </div>
       </header>
-      <hr />
     </div>
   );
 }

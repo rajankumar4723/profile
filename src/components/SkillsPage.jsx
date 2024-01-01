@@ -12,7 +12,7 @@ const skillsData = [
 ];
 const skillsData2 = [
   { name: 'Java', percentage: 80, color: '#3498db' },
-  { name: 'Next JS', percentage: 65, color: '#2ecc71' },
+  { name: 'C#', percentage: 65, color: '#2ecc71' },
   { name: 'C++', percentage: 75, color: 
   '#f39c12' }
   ,
@@ -22,6 +22,14 @@ const skillsData3 = [
   { name: 'React JS', percentage: 80, color: '#3498db' },
   { name: 'PHP', percentage: 70, color: '#2ecc71' },
   { name: 'MYSQL', percentage: 85, color: 
+  '#f39c12' }
+  ,
+  // Add more skills as needed
+];
+const skillsData4 = [
+  { name: 'Next Js', percentage: 80, color: '#3498db' },
+  { name: 'Bootstrap', percentage: 85, color: '#2ecc71' },
+  { name: 'Tailwind', percentage: 85, color: 
   '#f39c12' }
   ,
   // Add more skills as needed
@@ -48,7 +56,8 @@ const SkillsPage = () => {
             <div className="skill-percentage">{skill.percentage}%</div>
           </div>
         ))}
-      </div> <div className="skills-container">
+      </div> 
+      <div className="skills-container">
         {skillsData3.map((skill, index) => (
           <div key={index} className="skill-item">
             <div className="skill-name">{skill.name}</div>
@@ -57,8 +66,16 @@ const SkillsPage = () => {
           </div>
         ))}
       </div>
+      <div className="skills-container">
+        {skillsData4.map((skill, index) => (
+          <div key={index} className="skill-item">
+            <div className="skill-name">{skill.name}</div>
+            <div className="skill-bar" style={{ width: `${skill.percentage}%`, backgroundColor: skill.color }}></div>
+            <div className="skill-percentage">{skill.percentage}%</div>
+          </div>
+        ))}
+      </div>
     </div>
-    <hr />
 
     </div>
   );

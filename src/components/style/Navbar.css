@@ -8,11 +8,11 @@ html {
 
   }
   
-body{
-    /* margin-top: 40px; */
-    /* background: linear-gradient(135deg,#4203a9,#90bafc); */
-    /* color: #fff; */
-}
+/* .homepage{
+    margin-top: 40px;
+    background: linear-gradient(135deg,#4203a9,#90bafc);
+   color: #fff;
+} */
 
 .container {
     margin: auto;
@@ -66,9 +66,16 @@ nav {
     left: 0%;
     right: 0%;
     z-index: 100;
-    background-color: #1f242d;
-
+    background-color: #282d35;
+    /* background-color: rgb(220, 220, 240); */
     
+}
+.main_nav a:hover {
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-weight: 550;
+ 
 }
 .container-section {
   max-width: 1370px;

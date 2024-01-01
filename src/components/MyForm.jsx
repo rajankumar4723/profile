@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../firebaseConfig";
 import {collection,addDoc,getDocs} from "firebase/firestore";
+import './style/MyForm.css';
 const MyForm = () => {
   // State to manage form input values
   const [formData, setFormData] = useState({

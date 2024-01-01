@@ -1,132 +1,52 @@
+.mainFooter{
+  /* margin: auto; */
 
-.contact-main{
- display: flex;
- align-items: center;
- flex-wrap: wrap;
- overflow: hidden;
- /* margin-top: 45px; */
 }
-.project-section{
-    width: 50vw;
-    height: auto;
-    border:  1px solid red;
-    transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    height: 400px;
-    padding: 60px;
-    margin-left: 30px;
-  }
-  .project-section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  .project-section a{
-    color: blue;
-  }
-  .space{
-    margin-top: 30px;
-  }
-  
-
-.contact-from{
-    width: 40vw;
-    height: auto;
-}
-.cards{
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    height: 400px;
-    padding: 60px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin-left: 20px;
-  }
- input{
-    margin: 10px;
-    width: 60%;
-    padding: 5px;
-    border-radius: 20px;
-    outline: none;
-    margin-right: 5px;
-  }
-  textarea{
-    width: 60%;
-    padding: 5px;
-    border-radius: 20px;
-
-  }
-  
-  .cards:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  .btn {
-    padding: 10px 25px;
-    margin-top: 26px;
-    font-size: 15px;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.btn:hover {
-    color: #fff;
-    background-color: #01060a;
-}
-footer{
-  padding: 20px;
-}
-@media screen and (max-width:660px){
-  /* .contact-main{
-    flex-direction: column;
-  } */
-  .project-section{
-    width: 100vw;
-    height: auto;
-}
-.contact-from{
-  width: 100vw;
-  height: auto;
-}
-.cards{
-  border: 1px solid #ddd;
-  padding: 6px;
-  border-radius: 8px;
-  font-size: 10px;
-  width: 255px;
-  height: 300px;
-  transition: transform 0.3s, box-shadow 0.3s;
+.contact-main {
+  width: 1328px;
+  height: 500px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 10px;
+  margin-top: 20px;
+  /* padding-top: 50px; */
+  display: flex;
+  padding: 20px;
+  padding-left: 70px;
+  gap: 40px;
+  color: #312323;
+
 }
-input{
-  width: 70%;
-  padding: 5px;
+.cardProject{
+  max-width: 600px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #d6d1d1;
   border-radius: 20px;
-  outline: none;
-  margin-right: 5px;
-  font-size: 10px;
+  padding-top: 80px;
+  line-height: 40px;
+
 }
-textarea{
-  width: 70%;
-  padding: 5px;
+.cardProject a{
+  text-decoration: none;
+}
+.cardForm{
+  width: 500px;
+  background-color: #fff;
+  margin: 10px;
   border-radius: 20px;
-} 
-.project-section{
-  width: 84vw;
-  height: auto;
-  margin-top: ;
-  /* border:  1px solid red; */
-  
-  height: 230px;
-  padding: 40px;
-  margin-left: 20px;
-  font-size: 10px;
-  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #d6d1d1;
+
 }
+
+.footer {
+  width: 100%;
+  color: #fff;
+  height: 120px;
+  background-color: rgb(49, 47, 47);
 }

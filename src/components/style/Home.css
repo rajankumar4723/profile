@@ -1,208 +1,150 @@
-body {
-    font-family: 'poppins', sans-serif;
-}
-
-.homepage {
-    /* background-color: red; */
-    /* margin-top: 30px; */
-    background: linear-gradient(135deg, #4203a9, #90bafc);
-    /* color: #fff; */
-    overflow: hidden;
-
-}
-
-
 .profile {
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    max-width: 1280px;
-    margin: autoz;
-    
-}
-
-.profile-text {
-    padding: 35px;
-    width: 60vw;
-    margin-top: 55px;
-}
-
-.profile-text h1 {
-    font-size: 60px;
-}
-
-.profile-text h2 {
-    color: #ffff76;
-    font-size: 60px;
-}
-
-.profile-text p {
-    font-family: 'poppins', sans-serif;
-    color: #0ef;
-    font-size: 35px;
-    font-style: italic;
-}
-
-.profile-image {
-    padding-top: 70px;
-}
-.links{
-    gap: 20px;
-}
-.links i:hover{
-    padding: 5px;
-    color: #0ef;
-    border-radius: 20px;
-}
-
-.profile-image img {
-    width: 300px;
-    border-radius: 100%;
-}
-
-
-.btn {
-    padding: 10px 25px;
-    margin-top: 26px;
-    font-size: 15px;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.btn:hover {
-    color: #fff;
-    background-color: #01060a;
-}
-
-.cv-button {
-    padding: 10px 15px;
-    font-size: 15px;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-
-.cv-button:hover {
-    color: #fff;
-    background-color: #01060a;
-}
-
-.logo-container{
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    flex-wrap: wrap;
-    margin-right: 30px;
-}
-
-.skills {
-    padding: 10px 20px;
-}
-
-.skills img {
-    width: 50px;
-    border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  padding-top: 60px;
+  /* margin: 10px; */
+  margin: auto;
+  margin: 10px;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+    background-color: rgb(220, 220, 240);
+  transition: box-shadow 0.3s ease-in-out;
+  background: linear-gradient(135deg, #4203a9, #90bafc);
 
 }
-span {
-    color: aqua;
+.flexContainer{
+  display: flex;
+
 }
 
-.flex {
-    display: flex;
-    align-items: center;
+.textProfile {
+  color: #fff;
+  max-height: 350px;
+  max-width: 60vw;
+  font-size: 30px;
+  padding: 50px;
+  padding-left: 100px;
+  transition: color 0.5s ease-in-out, font-size 0.3s ease-in-out;
 }
 
-.hover-link:hover {
-    color: #0ef;
-    
-    /* background-color: #fff; */
+.textProfile h3 {
+  color: #fff;
+  transition: color 0.5s ease-in-out, font-size 0.3s ease-in-out;
 }
-footer p{
-    text-align: center;
-    margin-top: 170px;
-    width: 100%;
-    padding: 20px;
-    right: 0%;
-    position: absolute;
-    color: #fff;
-    background-color: black;
+.textProfile h3:hover {
+  color: #00bcd4; /* Change to the desired hover color */
+  font-size: 36px; /* Change to the desired hover font size */
 }
-@media screen and (max-width:768px){
-    .profile{
-        flex-direction: column-reverse;
-            align-items: center;
 
-    }
-    .home{
-        min-width: 00px
+.textProfile span {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeIn 1s ease 1s forwards, bounceText 1s ease infinite;
+  color: rgb(241, 241, 110);
+}
 
-    }
-    .profile-image{
-        margin-right: 100px;
-    }
-    .profile-image img{
-        width: 150px;
-    }
-    .profile-text {
-        padding: 0px;
-        width: 100vw;
-        margin-top: 15px;
-        line-height: 30px;
-    }
-    
-    .profile-text h1 {
-        font-size: 25px;
-    }
-    
-    .profile-text h2 {
-        color: #ffff76;
-        font-size: 20px;
-    }
-    
-    .profile-text p {
-        font-family: 'poppins', sans-serif;
-        color: #0ef;
-        font-size: 20px;
-        font-style: normal;
-    }
-    .links{
-        position: absolute;
-        top: 25%;
-        left: -60%;
-    }
-    .btn {
-    padding: 10px 15px;
-    margin-top: 6px;
-    font-size: 10px;
-    border-radius: 20px;
-    margin-left: 0px;
-   
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 
 
-.cv-button {
-    padding: 10px 5px;
-    font-size: 10px;
-   
+
+.textProfile h3 {
+  color: rgb(220, 245, 220);
+  font-weight: 700;
+  font-size: 25px;
+}
+.ImgProfile{
+  max-height: 350px;
+  margin-left: 200px;
+
+
+}
+.ImgProfile img{
+  width: 250px;
+  border-radius: 100%;
+}
+.ImgProfile img:hover{
+  border-radius: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-footer p{
-    margin-top: 50px;
-    width: 100%;
-    padding: 20px;
-    right: 0%;
-    position: absolute;
-    color: #fff;
-    background-color: black;
+.image-container img {
+  width: 120px;
+  height: 100px;
+  margin: 15px;
+  border-radius: 10px;
+  animation: pulse 1.5s ease-in-out infinite;
 }
 
-    
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.links {
+  margin-top: 20px;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(248, 238, 238); /* Set the default color */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.links a:hover {
+  color: #00bcd4; /* Change to the desired hover color */
   
-    
 }
+
+.links i {
+  font-size: 24px;
+}
+.links li i{
+  font-size: 30px;
+}
+.links li i:hover{
+  font-size: 40px;
+
+
+}
+
+/* Additional styling for the 'before' and 'after' hover effect */
+.links a::before,
+.links a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #00bcd4; /* Change to the desired hover color */
+  transition: width 0.3s ease-in-out;
+}
+
+.links a:hover::before {
+  width: 100%;
+}
+
+.links a:hover::after {
+  width: 100%;
+}
+

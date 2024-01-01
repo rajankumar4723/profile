@@ -1,0 +1,31 @@
+form{
+    padding: 30px;
+    text-align: center;
+}
+input{
+    margin: 15px;
+    border: 1px solid #d6d1d1;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+textarea{
+    margin: 10px;
+    border: 1px solid #d6d1d1;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    padding: 10px;
+background-color: darkblue ;
+color: #fff;
+}

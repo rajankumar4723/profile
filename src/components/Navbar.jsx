@@ -27,23 +27,23 @@ function Navbar() {
             <ul className={`list  ${isNavOpen ? "show" : ""}`}>
               <li>
                 <a href="#homepage" className="hover-link">
-                  Home
+                <i class="fa-solid fa-house"></i> Home
                 </a>
               </li>
               <li>
                 <a href="#about" className="hover-link">
-                  About
+                <i class="fa-solid fa-address-card"></i> About
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover-link">
-                  Skills
+                <i class="fa-solid fa-book"></i> Skills
                 </a>
               </li>
           
               <li>
                 <a href="#contact" className="hover-link">
-                  Contact
+                <i class="fa-solid fa-address-book"></i> Contact
                 </a>
               </li>
             </ul>

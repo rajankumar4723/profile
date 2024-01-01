@@ -1,32 +1,30 @@
-import React from 'react'
+import React from "react";
 import "./style/Contact.css";
-import MyForm from './MyForm';
-import Card from './Card';
+import MyForm from "./MyForm";
+import Card from "./Card";
 function Contact() {
   return (
-    <div>
-      <div className="contact-main">
-        <div className="project-section">
-          <h1>Github Project</h1>
-          <p>You can visit</p>
-          <a href="">click here</a>
-          <div className='space'>
-          <h1>Frontend Menter Project</h1>
-          <a href="https://www.frontendmentor.io/profile/rajankumar4723">click here</a>
-
+    <>
+      <div className="mainFooter">
+        <div className="contact-main">
+          <div className="cardProject">
+            <h2>Projects Github & Frontend Mentero</h2>
+            <p>You can visit my project</p>
+            <a href="/">Github</a>
+            <h3>My Frontend Projects & Clone</h3>
+            <a href="/">Frontend</a>
+          </div>
+          <div className="cardForm">
+            <MyForm />
           </div>
         </div>
-        <div className="contact-from cards">
-         <MyForm/>
+        <div className="footer">
+          <div className="social_link"></div>
+        sacdxas
         </div>
-
       </div>
-      <footer>
-          <p>@copyright</p>
-
-      </footer>
-    </div>
-  )
+    </>
+  );
 }
 
 export default Contact;
