@@ -107,8 +107,8 @@
 @media screen and (max-width:660px){
 .profile{
   margin: 7px;
-  max-width: 300px;
-  min-width: 350px;
+  max-width: 280px;
+  min-width: 340px;
 }
   .flexContainer{
     flex-direction: column-reverse;
