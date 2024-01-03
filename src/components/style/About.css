@@ -93,18 +93,19 @@
     .header-section {
         margin: 5px;
         max-height: 200vh;
-        max-width: 270px;
+        max-width: 310px;
         min-width: 340px;
 
     }
 
     .about-section {
-        max-width: 310px;
-        min-width: 340px;
+        max-width: 250px;
+        min-width: 320px;
         max-height: 90vh;
         padding: 5px;
         margin: 5px;
         font-size: 20px;
+        /* border: 1px solid red; */
 
     }
 
