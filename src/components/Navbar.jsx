@@ -24,7 +24,7 @@ function Navbar() {
             <img src={Navlogo} alt="" />{" "}
           </div>
           <div className="navlink">
-            <ul className={`list  ${isNavOpen ? "show" : ""}`}>
+            <ul className={`list listopen ${isNavOpen ? "show" : ""}`}>
               <li>
                 <a href="#homepage" className="hover-link">
                 <i class="fa-solid fa-house"></i> Home
@@ -62,13 +62,13 @@ function Navbar() {
         <section className="about" id="about">
           <About />
         </section>
-        <section className="services" id="services">
+        {/* <section className="services" id="services">
           <Skillspage />
         </section>
      
         <section className="about" id="contact">
           <Contact/>
-        </section>
+        </section> */}
       </div>
     </div>
   );

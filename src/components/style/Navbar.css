@@ -123,9 +123,9 @@ section:nth-child(even) {
     a{
       color: black;
     }
-  ul {
+    .listopen {
     position: absolute;
-    right: -20%;
+    right: -15%;
     top: 110%;
     font-size: 10px;
     flex-direction: column;

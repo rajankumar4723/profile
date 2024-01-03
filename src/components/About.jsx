@@ -23,6 +23,7 @@ function About() {
             I completed <span>High school</span> shri M.P Dubey Inter college
             from Manikpur Bhadohi{" "}
           </p>
+
         </div>
         <div className="title">
         <h1>Personal Details</h1>

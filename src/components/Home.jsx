@@ -21,14 +21,12 @@ function Home() {
       <div className="textProfile">
         <h2>Hi I am <br /> <span>Rajan Kumar Modanwal</span></h2>
         <h3>Frontend & Web Developer</h3>
-        <div className='links'>
           <ul>
             <li><a href="https://github.com/rajankumar4723"><i class="fa-brands fa-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/rajan-modanwal-11a73821a/"><i class="fa-brands fa-linkedin"></i></a></li>
             <li><a href="https://twitter.com/RajanMo65439359"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="https://www.frontendmentor.io/profile/rajankumar4723"><i class="fa-solid fa-code"></i></a></li>
           </ul>
-        </div>
         
       </div>
       <div className="ImgProfile">
@@ -41,7 +39,6 @@ function Home() {
       <img src={CS} alt="Image 3" />
       <img src={Htmlpic} alt="Image 1" />
       <img src={Java} alt="Image 2" />
-      <img src={My} alt="Image 3" />
       <img src={Next} alt="Image 3" />
 
     </div>

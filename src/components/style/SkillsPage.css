@@ -1,73 +1,81 @@
 /* SkillPage.css */
 
-.skill{
+.skill {
   max-width: 98.5%;
   max-height: 100vh;
-text-align: center; background-color: #fff;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-transition: box-shadow 0.3s ease-in-out;
-margin: 10px;
-color: #312323;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 10px;
+  color: #312323;
 
 
 
 }
-.skill h1{
+
+.skill h1 {
   color: mediumvioletred;
   font-size: 35px;
   padding-top: 60px;
 
-}.skill-page {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    padding: 20px;
-    flex-wrap: wrap;
-    font-size: 25px;
-    margin-top: 40px;
-    
-    
-  }
-  .skill-name{
-    color: chocolate;
-  }
-  
-  .skills-container {
-    display: flex;
-    align-items: center;
-    /* margin-left: 20px; */
-    overflow: hidden;
-    
-  }
-  
-  .skill-item {
-    margin: 10px ;
-    width: 500px;
-  }
-  
-  .skill-bar {
-    height: 20px;
-    border-radius: 5px;
-  }
-  
-  .skill-name {
-    font-weight: bold;
-  }
-  
-  .skill-percentage {
-    margin-top: 5px;
-  }
-  @media screen and (max-width:768px){
-    .skill{
-      margin-top: 60px;
+}
 
-    }
-    .skills-container{
-      margin-left: 0px;
-    }
-    .skill-item {
-      margin: 10px 0;
-      width: 72px;
-    }
+.skill-page {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-size: 25px;
+  margin-top: 40px;
+
+
+}
+
+.skill-name {
+  color: chocolate;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  /* margin-left: 20px; */
+  overflow: hidden;
+
+}
+
+.skill-item {
+  margin: 10px;
+  width: 500px;
+}
+
+.skill-bar {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-percentage {
+  margin-top: 5px;
+}
+
+@media screen and (max-width:768px) {
+  .skill {
+    margin-top: 60px;
+
   }
+
+  .skills-container {
+    margin-left: 0px;
+  }
+
+  .skill-item {
+    margin: 10px 0;
+    width: 72px;
+  }
+}
