@@ -62,10 +62,10 @@ function Navbar() {
         <section className="about" id="about">
           <About />
         </section>
-        {/* <section className="services" id="services">
+        <section className="services" id="services">
           <Skillspage />
         </section>
-     
+{/*      
         <section className="about" id="contact">
           <Contact/>
         </section> */}

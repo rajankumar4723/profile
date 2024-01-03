@@ -105,6 +105,7 @@
         padding: 5px;
         margin: 5px;
         font-size: 20px;
+        font-weight: normal;
         /* border: 1px solid red; */
 
     }
@@ -122,12 +123,14 @@
         margin: 5px;
         font-size: 10px;
         text-align: start;
+        
 
     }
 
     .about-section h1 {
         margin-top: 10px;
         margin-bottom: 10px;
+
         /* text-align: center; */
     }
 
@@ -135,6 +138,8 @@
         text-align: none;
         font-size: 12px;
         line-height: 25px;
+        font-weight: normal;
+
     }
 
     .information {
@@ -142,6 +147,8 @@
         margin-left: 0px;
         margin-right: 0px;
         padding: 10px;
+        font-weight: normal;
+
     }
 
     .personl {
@@ -160,6 +167,7 @@
 
     .right-side {
         font-size: 12px;
+
     }
    
 }
