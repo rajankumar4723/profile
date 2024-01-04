@@ -23,31 +23,36 @@
 .textProfile {
   color: #fff;
   max-height: 350px;
-  max-width: 600px;
+  max-width: 650px;
   font-size: 30px;
-  padding: 50px;
+  padding: 20px;
+  margin-left: 30px;
   padding-left: 100px;
-  transition: color 0.5s ease-in-out, font-size 0.3s ease-in-out;
+ 
 }
 
 .textProfile h2 {
   color: #fff;
-  transition: color 0.5s ease-in-out, font-size 0.3s ease-in-out;
+  font-size: 25px;
+}
+.textProfile h2 span{
   font-size: 30px;
+  color: rgb(247, 247, 91);
 }
 
 
 .textProfile h3 {
   color: rgb(220, 245, 220);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
+  
 }
 
 .ImgProfile {
   height: auto;
   width: 300px;
   max-height: 350px;
-  margin-left: 200px;
+  margin-left: 100px;
 
 
 }
@@ -69,12 +74,24 @@
 }
 
 .image-container img {
-  width: 120px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 15px;
   border-radius: 10px;
   animation: pulse 1.5s ease-in-out infinite;
 }
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 
 .textProfile {
@@ -103,6 +120,8 @@
 }
 
 .textProfile i {
+  margin-top: 10px;
+
   font-size: 24px;
 }
 
@@ -112,9 +131,9 @@
 
 @media screen and (max-width:660px) {
   .profile {
-    margin: 5px;
-    max-width: 310px;
-    min-width: 350px;
+      margin: 5px;
+      max-width: 310px;
+      min-width: 350px;
     font-weight: normal;
   }
 
@@ -139,7 +158,9 @@
     font-size: 19px;
     margin-left: 20px;
   }
-
+  .textProfile h2 span{
+    font-size: 18px;
+  }
   .textProfile h3 {
     font-size: 10px;
     margin-left: 20px;

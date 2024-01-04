@@ -25,11 +25,6 @@ function About() {
           </p>
 
         </div>
-        <div className="title">
-        <h1>Personal Details</h1>
-
-{/* <h3> I am Frontend Developer</h3> */}
-        </div>
         <div className="information">
            
           <div className="personl">
@@ -80,6 +75,7 @@ function About() {
             </li>
           </div>
         </div>
+        
       </header>
     </div>
   );

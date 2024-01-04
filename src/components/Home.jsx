@@ -40,6 +40,9 @@ function Home() {
       <img src={Htmlpic} alt="Image 1" />
       <img src={Java} alt="Image 2" />
       <img src={Next} alt="Image 3" />
+      <img src={Htmlpic} alt="Image 1" />
+      <img src={Java} alt="Image 2" />
+      <img src={Next} alt="Image 3" />  
 
     </div>
      

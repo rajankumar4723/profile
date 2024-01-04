@@ -37,7 +37,7 @@ const skillsData4 = [
 
 const SkillsPage = () => {
   return (
-    <div className='skill'>      <h1>Skills</h1>
+    <div className='skill'>      <h1>Technical Skills</h1>
     <div className="skill-page">
       <div className="skills-container">
         {skillsData.map((skill, index) => (

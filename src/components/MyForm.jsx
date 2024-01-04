@@ -93,7 +93,7 @@ const MyForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="Enter your name"
+            placeholder="Enter your email"
           />
         </label>
         <br />
@@ -104,7 +104,7 @@ const MyForm = () => {
             name="mobile"
             value={formData.mobile}
             onChange={handleChange}
-            placeholder="Enter your email   "
+            placeholder="Enter your number   "
           />
         </label>{" "}
         <br />

@@ -65,10 +65,10 @@ function Navbar() {
         <section className="services" id="services">
           <Skillspage />
         </section>
-{/*      
+     
         <section className="about" id="contact">
           <Contact/>
-        </section> */}
+        </section>
       </div>
     </div>
   );

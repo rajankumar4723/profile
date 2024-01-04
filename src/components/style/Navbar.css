@@ -39,7 +39,8 @@ li {
 
 ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(244, 244, 248);
+  font-size: 15px;
 
 }
 
@@ -74,8 +75,7 @@ nav {
 }
 
 .main_nav a:hover {
-  padding: 8px;
-  border: 1px solid #fff;
+  
   border-radius: 20px;
   font-weight: 550;
 
@@ -131,9 +131,7 @@ section:nth-child(even) {
     display: none;
   }
 
-  a {
-    color: black;
-  }
+ 
 
   .listopen {
     position: absolute;
@@ -142,11 +140,13 @@ section:nth-child(even) {
     font-size: 10px;
     flex-direction: column;
   }
-
-  a {
+.hover-link{
+color: rgb(56, 45, 45);
+}
+  /* a {
     color: #fff;
 
-  }
+  } */
 
   .nav.open .list {
     display: flex;
