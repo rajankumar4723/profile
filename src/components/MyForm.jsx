@@ -4,6 +4,7 @@ import {collection,addDoc,getDocs} from "firebase/firestore";
 import './style/MyForm.css';
 const MyForm = () => {
   // State to manage form input values
+  const [isSubmitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -45,11 +46,13 @@ const MyForm = () => {
 
     try {
       await submitFormData(formData);
+      setSubmitted(true);
       console.log("Form data submitted successfully!");
       setFormData({
         name: "",
         email: "",
-        password: "",
+        mobile: "",
+        message:"",
       });
       fetchData();
 
@@ -74,6 +77,8 @@ const MyForm = () => {
 
   return (
     <>
+          {isSubmitted && <p className="success">Successfully submitted the form!</p>}
+
       <form onSubmit={handleSubmit}>
         <label>
           Name:
@@ -123,6 +128,7 @@ const MyForm = () => {
           Submit
         </button>
       </form>
+
     </>
   );
 };

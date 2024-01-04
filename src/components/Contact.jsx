@@ -20,11 +20,11 @@ function Contact() {
         </div>
         <div className="footer">
           <div className="social_link">
-            <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="/"><i class="fa-brands fa-github"></i></a>
-            <a href="/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="/"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/rajan-modanwal-11a73821a/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/rajankumar4723"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100057020471463"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/rajan.kumar55555/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/RajanMo65439359"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
         <div className="subFooter">
         <p>&copy; 2024 Privacy Policy Terms & Conditions </p>

@@ -19,7 +19,7 @@ textarea{
 }
 button{
     padding: 8px 17px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -30,6 +30,10 @@ button:hover{
     padding: 10px;
 background-color: darkblue ;
 color: #fff;
+}
+.success{
+    color: green;
+    
 }
 @media screen and (max-width: 768px) {
     form{
