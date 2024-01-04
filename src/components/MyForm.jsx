@@ -128,6 +128,7 @@ const MyForm = () => {
           Submit
         </button>
       </form>
+      {isSubmitted && <p>Successfully submitted the form!</p>}
 
     </>
   );
