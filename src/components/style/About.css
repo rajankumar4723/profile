@@ -121,14 +121,14 @@
 
     .about-section p {
         text-align: none;
-        font-size: 8px;
+        font-size: 12px;
         line-height: 20px;
         font-weight: normal;
 
     }
     .about-section p span {
         color: hotpink;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .information {
@@ -144,17 +144,17 @@
 
     .personl {
         margin-left: 0px;
-        font-size: 8px;
+        font-size: 12px;
 
     }
 
     .personl li span{
-        font-size: 8px;
+        font-size: 12px;
         
     }
 
     .right-side {
-        font-size: 8px;
+        font-size: 12px;
 
     }
    
