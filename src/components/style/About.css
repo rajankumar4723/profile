@@ -28,7 +28,7 @@
 
 .about-section p {
     text-align: center;
-    line-height: 35px;
+    line-height: 30px;
     font-size: 15px;
 }
 .about-section p span{
@@ -108,7 +108,7 @@
     }
 
     .heading {
-        font-size: 30px;
+        font-size: 20px;
     }
 
    
@@ -121,10 +121,14 @@
 
     .about-section p {
         text-align: none;
-        font-size: 12px;
-        line-height: 25px;
+        font-size: 8px;
+        line-height: 20px;
         font-weight: normal;
 
+    }
+    .about-section p span {
+        color: hotpink;
+        font-size: 10px;
     }
 
     .information {
@@ -133,25 +137,24 @@
         margin-right: 0px;
         padding: 10px;
         font-weight: normal;
+        line-height: 10px;
+        padding-top: 0px;
 
     }
 
     .personl {
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 8px;
 
     }
 
-    .title {
-        font-size: 12px;
-    }
-
-    .heading {
-        font-size: 15px;
+    .personl li span{
+        font-size: 8px;
+        
     }
 
     .right-side {
-        font-size: 12px;
+        font-size: 8px;
 
     }
    

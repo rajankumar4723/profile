@@ -6,10 +6,10 @@ import Java from "../assets/java.png";
 import JS from "../assets/js.png";
 import CS from "../assets/css.webp";
 import Reac from "../assets/react.webp";
-import My from "../assets/php.png";
+import php from "../assets/phpLogo.png";
 import Next from "../assets/next.png";
-
-
+import Tail from "../assets/Taiwind.png";
+import Bootstrap from "../assets/Bootstrap.jpg";
 
 
 
@@ -40,9 +40,9 @@ function Home() {
       <img src={Htmlpic} alt="Image 1" />
       <img src={Java} alt="Image 2" />
       <img src={Next} alt="Image 3" />
-      <img src={Htmlpic} alt="Image 1" />
-      <img src={Java} alt="Image 2" />
-      <img src={Next} alt="Image 3" />  
+      <img src={php} alt="Image 1" />
+      <img src={Tail} alt="Image 2" />
+      <img src={Bootstrap} alt="Image 3" />  
 
     </div>
      
