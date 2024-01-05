@@ -89,7 +89,7 @@
         margin: 5px;
         max-width: 310px;
         min-width: 350px;
-        height: 135vh;
+        max-height: 135vh;
     padding-top: 15px;  
         
 
