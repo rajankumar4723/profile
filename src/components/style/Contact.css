@@ -1,10 +1,11 @@
 .mainFooter{
-  /* margin: auto; */
+  width: 100%;
+  padding-bottom: 0px;
 
 }
 .contact-main {
   width: 98.5%;
-  height: 500px;
+  height: 542px;
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
@@ -17,7 +18,7 @@
   padding: 20px;
   padding-left: 70px;
   padding-top: 40px;
-  gap: 40px;
+  gap: 80px;
   color: #312323;
   font-weight: normal;
 
