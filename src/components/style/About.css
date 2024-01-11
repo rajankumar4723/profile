@@ -87,81 +87,10 @@
 .right-side i {
     color: rgb(33, 75, 153);
 }
-@media screen and (max-width:900px) {
-    .header-section {
-        margin: 10px;
-        width: 878px;
-    padding-top: 15px;  
-    overflow: hidden;
-
-    }
-
-    .about-section {
-        max-width: 500px;
-        padding: 5px;
-        margin: 0px;
-        font-weight: normal;
-        padding: 5px;
-        padding-left: 0px;
-        overflow: hidden;
-        height: auto;
-        font-size: 10px;
-    } 
-
-     .heading {
-        font-size: 20px;
-    }
-
-   
-    .about-section h1 {
-        margin-top: 5px;
-        margin-bottom: 10px;
-
-    }
-
-    .about-section p {
-        text-align: none;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: normal;
-
-    }
-    .about-section p span {
-        color: hotpink;
-        font-size: 14px;
-    }
-
-    .information {
-        flex-direction: column;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding: 10px;
-        font-weight: normal;
-        line-height: 10px;
-        padding-top: 0px;
-
-    }
-
-    .personl {
-        max-width: 550px;
-        margin-left: 0px;
-        font-size: 15px;
-
-
-    }
-
-    
-
-    .right-side {
-        font-size: 15px;
-
-   
-}
-}
 
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:600px) {
     .header-section {
         margin: 5px;
         max-width: 310px;
