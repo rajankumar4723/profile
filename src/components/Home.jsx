@@ -15,6 +15,7 @@ import Bootstrap from "../assets/Bootstrap.jpg";
 
 
 function Home() {
+  
   return (
     <div className='profile'>
       <div className="flexContainer">

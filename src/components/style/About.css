@@ -1,6 +1,6 @@
 .header-section {
     max-width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 10px;
     background-color: #fff;
     border-radius: 10px;
@@ -89,7 +89,7 @@
         margin: 5px;
         max-width: 310px;
         min-width: 350px;
-        max-height: 135vh;
+        /* max-height: 135vh; */
     padding-top: 15px;  
         
 
