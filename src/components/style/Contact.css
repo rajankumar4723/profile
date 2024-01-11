@@ -85,8 +85,33 @@ border-radius: 10px;
   font-weight: normal;
   font-size: 15px;
 }
+@media screen and (max-width: 900px) {
+  .contact-main{
+    min-width: 300px; 
+    max-height: auto;
+    /* flex-direction: column; */
+    padding: 50px;
+    padding-left: 0px;
+    gap: 10px;
+    margin: 5px;
+    font-size: 12px;
+  
+  }  
+  .cardProject{
+    max-width: 400px;
+    min-width: 400px;
+    margin: 5px;
+    padding: 50px;
+    padding-top: 100px;
+    line-height: 25px;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  
+  }
 
-@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 360px) {
 .contact-main{
   margin: 5px;
   max-width: 310px;
@@ -102,8 +127,8 @@ border-radius: 10px;
 }  
 
 .cardProject{
-  max-width: 450px;
-  min-width: 300px;
+  max-width: 500px;
+  min-width: 500px;
   margin: 5px;
   padding: 15px;
   padding-top: 10px;

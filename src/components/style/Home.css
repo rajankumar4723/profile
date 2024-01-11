@@ -27,24 +27,26 @@
   font-size: 30px;
   padding: 20px;
   margin-left: 30px;
-  padding-left: 100px;
+  padding-left: 120px;
  
 }
 
 .textProfile h2 {
   color: #fff;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: 100;
+
 }
 .textProfile h2 span{
-  font-size: 30px;
+  font-size: 40px;
   color: rgb(247, 247, 91);
 }
 
 
 .textProfile h3 {
   color: rgb(220, 245, 220);
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 100;
+  font-size: 25px;
   
 }
 
@@ -52,7 +54,7 @@
   height: auto;
   width: 300px;
   max-height: 350px;
-  margin-left: 100px;
+  margin-left: 140px;
 
 
 }
@@ -69,7 +71,7 @@
 .image-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 80px;
   flex-wrap: wrap;
 }
 
@@ -128,8 +130,75 @@
 .textProfile li i {
   font-size: 30px;
 }
+@media screen and (max-width:600px) {
+.profile{
+  max-width: 100%;
+  border: 1px solid red;
+  
+}
+.textProfile {
+  color: #fff;
+  max-width: 500px;
+  font-size: 10px;
+  padding: 0px;
+  margin-left: 0px;
+  padding-left: 10px;
+ 
+}
 
-@media screen and (max-width:660px) {
+.textProfile h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+
+}
+.textProfile h2 span{
+  font-size: 22px;
+}
+
+
+.textProfile h3 {
+  color: rgb(220, 245, 220);
+  font-size: 15px;
+  
+}
+.ImgProfile {
+  height: auto;
+  width: 300px;
+  max-height: 300px;
+  margin-left: 0px;
+
+
+}
+
+.ImgProfile img {
+  width: 150px;
+}
+
+
+
+.image-container {
+  margin-top: 40px;
+}
+
+.image-container img {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+  border-radius: 10px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+.textProfile ul {
+  gap: 5px;
+}
+
+.textProfile li i {
+  font-size: 20px;
+}
+
+}
+
+@media screen and (max-width:360px) {
   .profile {
       margin: 5px;
       max-width: 310px;
